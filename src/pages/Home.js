@@ -12,8 +12,8 @@ function Home() {
         <div className="about">
             <img src={HomePic} alt="profile" />
             <h1>VHERNADETTE SASING</h1>
-             <div className="prompt"> <p> VIRTUAL ASSISTANT | WEB DEVELOPER | TECHNICAL SUPPORT | CUSTOMER SUPPORT | TRAINING MANAGER</p>
-             <div className="media">
+             <div className="prompt"> <p> VIRTUAL ASSISTANT | WEB DEVELOPER  TECHNICAL SUPPORT | CUSTOMER SUPPORT  TRAINING MANAGER | ADMIN</p>
+             <div className="socialMedia">
              <FacebookIcon />
              <YouTubeIcon />
              <LinkedInIcon />

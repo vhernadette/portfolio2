@@ -42,9 +42,15 @@
     width: 100%;
   }
 
-  .media icon
+  .media .icons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .about .prompt {
-    width: 15%;
+    width: 30%;
     font-size: 18px;
   }
   .prompt svg {
@@ -64,16 +70,17 @@
   
   .skills h1 {
     color: black;
+    
   }
   
   .skills .list {
     list-style: none;
-    width: 90%;
+    width: 60%;
     color: black;
   }
   
   .list span {
-    font-size: 14px;
+    font-size: 20px;
   }
   
 
