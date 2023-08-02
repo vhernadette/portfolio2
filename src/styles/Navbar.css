@@ -6,6 +6,10 @@
     height: 100px;
     background: black;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    z-index: 1000;
   }
   
   .links {

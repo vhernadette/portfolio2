@@ -2,7 +2,6 @@
     width: 100%;
     align-items: center;
     font-family: "Arial", sans-serif;
-    color: rgb(211, 209, 209);
     background-color: rgba(180, 176, 176, 0.5);
   }
   
@@ -14,7 +13,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: rgb(255, 255, 255, 0.5);
     color: black;
   }
   
@@ -68,6 +66,7 @@
   .skills {
     font-size: 35px;
     width: 100%;
+    
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -76,6 +75,7 @@
   }
   
   .skills h1 {
+
     color: black;
     font-size: 40px;
     margin-bottom: 20px;
@@ -84,26 +84,22 @@
     border-radius: 10px;   
   }
   
-  .skills .list {
-    list-style: none;
-    width: 60%;
-    color: white;
-  }
-  
-  .list span {
-    font-size: 15px;
-    align-items: ;
-    color: black;
-  }
-  
-  .item h2 {
-    width: 300px;
-    height: 25px;
-    background-color: rgb(35, 35, 35);
-    border-radius: 10px;
+  .vertical-timeline-element--title {
     font-size: 20px;
-
+    font-weight: bold;
+    height: 120px;
   }
+
+  .vertical-timeline-element-date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px; 
+    height: 30px; 
+    color: #0e0e0e;
+    font-size: 20px; 
+    margin-top: 30px;
+    }
 
   @media only screen and (max-width: 600px) {
     .about h2 {
