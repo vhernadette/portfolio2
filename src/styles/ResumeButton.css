@@ -1,5 +1,5 @@
 .resume-button-below {
-    width: 200px;
+    width: 300px;
     height: 50px;
     background-color: black;
     color: white;
@@ -12,9 +12,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* Center the button horizontally on larger screens */
+    margin: 0 auto;
   }
   
   .resume-button-below:hover {
     background-color: grey;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .resume-button-below {
+      font-size: 20px;
+      width: 80%;
+    }
   }
   
